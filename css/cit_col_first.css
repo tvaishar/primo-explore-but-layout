@@ -1,5 +1,5 @@
 /* cit_col_first begin */
-li#BibTexPushTo, li#RISPushTo, li#Refworks, li#Endnote, li#Easybib			/*hide redundant buttons first*/
+li#BibTeXPushTo.layout-column, li#RISPushTo.layout-column, li#RefWorks.layout-column, li#EndNote.layout-column, li#EasyBib.layout-column			/*hide redundant buttons first*/
 	{
 	display:none;	
 	}
