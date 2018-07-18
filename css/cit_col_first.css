@@ -1,5 +1,8 @@
 /* cit_col_first begin */
 li#BibTexPushTo, li#RISPushTo, li#Refworks, li#Endnote, li#Easybib			/*hide redundant buttons first*/
+	{
+	display:none;	
+	}
 
 li#Citation.layout-column
 	{
