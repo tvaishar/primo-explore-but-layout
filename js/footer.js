@@ -6,7 +6,7 @@
 app.controller ('prmExploreFooterAfterController', ['angularLoad','$sce', function (angularLoad,$sce) {
 	
 	var vm = this;
-	
+	vm.footerLogoUrl = 'custom/' + viewName + '/img/VUT_inverzni_CZ.png';
 	
 }]);
 
