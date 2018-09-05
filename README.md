@@ -13,3 +13,6 @@ Adds a little margin to results count so it won't interfere with page number.
 ##Hide
 Anything that needs to be hidden:
 * personalize results
+
+##Footer
+Adds footer structure (js + html + css). Footer.html has to be copied to the main html directory of the view.

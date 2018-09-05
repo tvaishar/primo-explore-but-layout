@@ -1,0 +1,39 @@
+/* footer begin */
+#footer {
+		display: flex;
+		background-color: #E4002B;
+		color: #FFFFFF;
+		margin-top:150px;
+		padding: 30px 30% 30px 30%;
+		/*font-size:80%;*/
+		}
+#footer div md-card	
+		{	
+		background-color: inherit;
+		color: inherit;
+		}
+#footer .md-headline
+		{
+		font-size:20px;
+		line-height:28px;
+		}
+#footer md-card.default-card
+		{
+		font-size: 1.0em;
+		line-height: 1.2rem;	
+		}
+#footer .md-button.md-primary,#footer a
+		{
+		color:rgb(243, 243, 243);	
+		}
+#gdpr
+		{
+		-webkit-flex:1 1 60%;
+		flex: 1 1 60%;
+		}
+#contact
+		{
+		-webkit-flex:1 1 40%;
+		flex: 1 1 40%;
+		}
+/* footer end */
