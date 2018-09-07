@@ -1,6 +1,5 @@
 /* hide begin */
-
-prm-personalize-results-button button 
+prm-personalize-results-button button, #personal_settings-focus
 	{
 	display:none !important;	
 	}	
