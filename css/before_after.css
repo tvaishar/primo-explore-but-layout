@@ -1,0 +1,10 @@
+/* before - after begin */
+prm-loan p.loans-brief-display span::after 
+		{
+		content: " ";
+		}
+/* before - after end */		
+
+		
+
+
