@@ -45,5 +45,13 @@ div#facets.flex-lgPlus-20{
 	box-sizing: border-box;}
 }		
 
-
+prm-facet [sticky].is-stuck
+	{	
+	bottom: 195px !important;
+	}
+prm-facet .multiselect-submit .multiselect-submit-inner
+	{
+	transform: translateY(-150px);
+	box-shadow: 0 -6px 50px -8px;
+	}
 /* facets_to_left end */
