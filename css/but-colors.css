@@ -1,0 +1,49 @@
+/* but-colors.css begin */
+body,html	
+		{
+		background-color:#FFFFFF;
+		}
+
+prm-topbar  .top-nav-bar  /*top menu background*/
+		{
+		color:#E4002B;
+		background-color:#FFFFFF;	
+		}
+.md-button.button-over-dark,prm-topbar .md-button  /* top menu button color */
+		{
+		color:#E4002B;
+		}
+prm-user-area .user-menu-button .user-name
+		{
+		color:#E4002B;	
+		}
+div.product-logo a:hover        /* hover logo */
+		{
+		box-shadow: inset 0 -2px 0 0 #E4002B;	
+		background-color:#FFFFFF;
+		}
+div.product-logo a:focus		/* focus logo */
+		{
+		box-shadow:none;
+		background-color:#FFFFFF;
+		}
+
+prm-user-area md-fab-toolbar.md-is-open md-fab-trigger .md-fab-toolbar-background, prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background  /* user area background color */
+		{
+		background-color:#FFFFFF !important;	
+		}
+prm-user-area md-fab-toolbar .md-fab-action-item .md-button, prm-user-area md-fab-toolbar .md-fab-action-item md-input-container, prm-user-area md-fab-toolbar .md-fab-action-item md-input-container md-select /* user area fore color */
+		{
+		color:#E4002B;
+		}
+prm-user-area md-fab-toolbar .md-fab-action-item md-input-container md-select:hover   /* specific hover for language sel. */
+		{
+		color:#FFFFFF;
+		}
+.result-item-actions .pin-button						/* pin button color (same as other buttons, which are most likely automatically derived from primary color )*/
+		{
+		color:rgb(228, 0, 43);
+		}
+		
+		
+/* but-colors.css end */

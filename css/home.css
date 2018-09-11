@@ -1,0 +1,46 @@
+/* home page begin */
+prm-static md-card-title
+	{
+	padding-top:10px !important;	
+	}
+	
+@media (min-width:1920px){
+prm-static + div.flex-xl-30{
+	-ms-flex: 1 1 20% !important;
+	flex: 1 1 20% !important;
+	max-width: 20% !important;
+	max-height: 100% !important;
+	box-sizing: border-box !important;
+}
+}
+
+@media (min-width:1280px) and (max-width:1919px){
+prm-static + div.flex-lg-25{
+	-ms-flex: 1 1 10% !important;
+	flex: 1 1 10% !important;
+	max-width: 10% !important;
+	max-height: 100% !important;
+	box-sizing: border-box !important;
+}
+}
+
+@media (min-width:960px) and (max-width:1279px){
+prm-static + div.flex-md-10{
+	-ms-flex: 1 1 0% !important;
+	flex: 1 1 0% !important;
+	max-width: 0% !important;
+	max-height: 100% !important;
+	box-sizing: border-box !important;
+}
+}
+
+#tweet-card	
+	{
+	height:100%;
+	display:block;
+	}
+#tweet-card md-card-content
+	{
+	height: 400px;	
+	}	
+/* home page end */
