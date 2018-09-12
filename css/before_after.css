@@ -1,5 +1,5 @@
 /* before - after begin */
-prm-loan p.loans-brief-display span::after 
+prm-loan p.loans-brief-display span::after, prm-loan span[translate="nui.loan.brief.2"]::after 
 		{
 		content: " ";
 		}
