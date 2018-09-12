@@ -33,7 +33,12 @@ prm-static + div.flex-md-10{
 	box-sizing: border-box !important;
 }
 }
-
+@media (max-width:599px){
+prm-static div.flex-50
+		{
+		max-width: 100% !important;
+		}
+}
 #tweet-card	
 	{
 	height:100%;
