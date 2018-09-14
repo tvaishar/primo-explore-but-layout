@@ -23,7 +23,7 @@ else
 
 var tipNumber = Math.floor(Math.random() * 17); //16 tips
 
-var viewLang = "cs_CZ";	
+/*var viewLang = "cs_CZ";*/
 /* tipNumber=1; */
 
 /* consts end*/

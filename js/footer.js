@@ -14,7 +14,7 @@ app.controller ('prmExploreFooterAfterController', ['angularLoad','$sce', functi
 app.component('prmExploreFooterAfter', {
 		bindings: {parentCtrl: '<'},
 		controller: 'prmExploreFooterAfterController',
-        templateUrl: 'custom/' + viewName + '/html/footer.html'
+        templateUrl: 'custom/' + viewName + '/html/footer_' + viewLang + '.html'
  });
 
 /* BUT NUI footer end */
