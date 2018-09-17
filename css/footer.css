@@ -4,7 +4,8 @@
 		background-color: #c0c0c0;
 		color: #FFFFFF;
 		margin-top:150px;
-		padding: 30px 5% 30px 5%;
+		padding: 30px calc(20% + 16px) 30px calc(20% + 16px);
+		/*padding: 30px 5% 30px 5%;*/
 		/*font-size:80%;*/
 		font-size:80%;
 		}
@@ -17,14 +18,16 @@
 {
 #footer	
 	{
-	padding: 30px 5% 30px 5%;	
+	/*padding: 30px 5% 30px 5%;*/
+	padding: 30px calc(10% + 16px) 30px calc(10% + 16px);
 	}
 }
 @media (min-width:600px) and (max-width:1279px)
 {
 #footer	
 	{
-	padding: 20px 5% 20px 5%;	
+	/*padding: 20px 5% 20px 5%;	*/
+	padding: 30px 0% 30px 0%;
 	}
 }
 @media (max-width:599px)
