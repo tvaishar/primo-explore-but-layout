@@ -21,7 +21,7 @@ else
 		var viewLang = viewArray[1];	
 		}
 
-var tipNumber = Math.floor(Math.random() * 17); //16 tips
+var tipNumber = Math.floor((Math.random() * 16)+ 1); //16 tips, starting with 1
 
 /*var viewLang = "cs_CZ";*/
 /* tipNumber=1; */

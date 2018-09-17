@@ -1,4 +1,9 @@
 /* home page begin */
+prm-static #news md-card
+	{
+	border:1px solid #e4002b;	
+	width:100%;
+	}
 prm-static md-card-title
 	{
 	padding-top:10px !important;	
