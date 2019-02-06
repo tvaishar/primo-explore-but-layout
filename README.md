@@ -49,3 +49,6 @@ New solution is bound to `<prm-citation-after>`, while the original solution is 
 The data come mostly from `$vm.vm.parentCtrl.item.pnx.addata` and some from `$vm.vm.parentCtrl.item.pnx.display`.
 
 The `<iframe>` is sanitized with [AngularJS SCE](https://docs.angularjs.org/api/ng/service/$sce).
+
+##Request form
+Solution to request form (originally two form fields with sublibrary and pickup location). It was misleading. One field form has to be hidden. The sublibrary already means the pickup location.
