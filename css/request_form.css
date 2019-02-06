@@ -1,7 +1,7 @@
 /* request_form begin */
 
-/*hides the first form field*/
-form[name=requestForm] prm-form-field:first-child
+/*hides the first form field, only in the right context*/
+form[name=requestForm] prm-form-field:first-child:not([form-name=requestForm])
 		{
 		display:none;	
 		}
