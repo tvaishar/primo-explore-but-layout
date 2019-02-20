@@ -4,4 +4,16 @@ prm-personalize-results-button button, #personal_settings-focus
 	display:none !important;	
 	}	
 	
+/*encoding selection at bibtex and ris export*/
+prm-export-ris form > div:first-child,prm-export-bibtex form > div:first-child
+		{
+		display: none;	
+		}
+
+/*hides the first form field of request form*/
+form[name=requestForm] prm-form-field:first-child:not([form-name=requestForm])
+		{
+		display:none;	
+		}
+	
 /* hide end */
