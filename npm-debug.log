@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Primo\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\vaishar.VUTBR\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.3.12
+3 info using node@v6.9.2
+4 verbose stack Error: EEXIST: file already exists, mkdir 'C:\Users\vaishar\AppData\Roaming\npm'
+4 verbose stack     at Error (native)
+5 verbose cwd C:\Primo\primo-explore-but-layout
+6 error Windows_NT 10.0.18362
+7 error argv "C:\\Primo\\nodejs\\node.exe" "C:\\Users\\vaishar.VUTBR\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+8 error node v6.9.2
+9 error npm  v3.3.12
+10 error path C:\Users\vaishar\AppData\Roaming\npm
+11 error code EEXIST
+12 error errno -4075
+13 error syscall mkdir
+14 error EEXIST: file already exists, mkdir 'C:\Users\vaishar\AppData\Roaming\npm'
+File exists: C:\Users\vaishar\AppData\Roaming\npm
+Move it away, and try again.
+15 verbose exit [ -4075, true ]
